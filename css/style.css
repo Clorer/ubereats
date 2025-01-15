@@ -1,0 +1,124 @@
+.body_content{
+    padding: 1rem 5rem; 
+}
+
+body{
+    margin: 0;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.auth_and_busket{
+    display: flex;
+}
+
+.sign_in_btn{
+    align-self: center;
+    border-radius: 10px;
+    color:  #1D1D1D;
+    width: 78px;
+    height: 40px;
+    border: 1px outset #E0E0E0;
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.25); 
+}
+
+.search{
+    width: 100%;
+    border: none;
+    border-bottom: rgba(117, 117, 117, 0.5) solid 1px;
+}
+
+.heading_text{
+    font-weight: normal;
+}
+
+.card {
+    margin-bottom: 2rem;
+    border: none; 
+    border-radius: 10px; 
+    overflow: hidden;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15); 
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+
+.card:hover{
+    transform: translateY(-10px); 
+    box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.25); 
+}
+
+.card img {
+    width: 100%;
+    border-bottom: 1px solid #e0e0e0; 
+}
+
+.card h4 {
+    margin: 1rem 1rem 0.5rem; 
+    font-size: 18px;
+    color: #333333;
+    font-weight: bold;
+}
+
+.card .menu {
+    margin: 0.5rem 1rem;
+    color: #828282;
+    font-size: 14px;
+}
+
+.card h5 {
+    margin: 0.5rem 1rem 1rem;
+    color: #333333;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+footer{
+    background-color: #262626;
+    padding: 1rem 5rem; 
+}
+
+.footer_logo_container{
+    padding: 1rem 0;
+    border-bottom: #ffffff 1px solid;
+    margin-bottom: 1rem;
+}
+
+.language_select{
+    margin-top: 1.5rem;
+    background-color: #3B3B3B;
+    padding: 0.5rem 1rem;
+    display: flex;
+    width: 70%;
+}
+
+.language_select select{
+    background-color: #3B3B3B;
+    border: none;
+    color: #E0E0E0;
+    width: 100%;
+    margin-left: 1rem;
+}
+
+.footer_card{
+    height: 10rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.about{
+    padding-bottom: 1.5rem;
+    border-bottom: #ffffff 1px solid;
+}
+
+.about,.footer_docs_card p, a {
+    color: #E0E0E0;
+    margin-top: 1.5rem;
+    text-decoration: none;
+}
+
+.footer_docs_card a {
+    margin-top: 1.5rem;
+    display: block;
+}
