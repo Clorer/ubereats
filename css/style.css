@@ -122,3 +122,77 @@ footer{
     margin-top: 1.5rem;
     display: block;
 }
+
+.lable_header{
+    padding: 10rem 5rem;
+    background-image: url("../img/restaurants/bkg.png");
+    border: #1D1D1D solid 1px;
+    background-size: cover;
+}
+
+.lable_card{
+    background-color: white;
+    padding: 1.5rem;
+    text-align: center;
+}
+
+.lable_card h1{
+    font-weight: normal;
+    font-size: 2.2rem;
+    margin-bottom: 2.5rem;
+}
+
+.price_and_time_cont{
+    display: flex;
+    justify-content: space-around;
+}
+
+p.price{
+    color: #777777;
+    display: block;
+    padding: 0.5rem;
+}
+
+p.time{
+    color: #ffffff;
+    background: #1D1D1D;
+    padding: 0.5rem;
+    border-radius: 20px;
+    display: block;
+}
+
+.dishes button{
+    color: #777777;
+    border: none;
+}
+
+.dishes_item{
+    margin-right: 4rem;
+}
+
+.dishes_item:hover{
+    color: green;
+    border-bottom: green solid 1px;
+}
+
+.dishes_item.active{
+    color: green;
+    border-bottom: green solid 1px;
+}
+
+.dishe-card img{
+    width: 15rem;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+
+.dishe-card, .discription{
+    display: flex;
+    justify-content: space-between;
+}
+
+.dishe-card p{
+    margin: 1rem 1rem 0.5rem; 
+    color: #777777;
+}

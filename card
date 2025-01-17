@@ -1,0 +1,56 @@
+<div class="row">
+            <div class="col-xs-12 col-md-12 col-lg-6">
+                <div class="card">
+                    <h4>
+                        <p style="color: #777777;">
+                            <h4 class="price"><img src="dishe_1" alt="" class="dishe_pict"></h4>
+                        </p>
+                    </h4>
+                </div>
+            </div>
+            <div class="col-xs-12 col-md-12 col-lg-6">
+                <div class="card">
+                    <h4>
+                        <p style="color: #777777;">
+                            <h4 class="price"><img src="dishe_2" alt="" class="dishe_pict"></h4>
+                        </p>
+                    </h4>
+                </div>
+            </div>
+            <div class="col-xs-12 col-md-12 col-lg-6">
+                <div class="card">
+                    <h4>
+                        <p style="color: #777777;">
+                            <h4 class="price"><img src="dishe_3" alt="" class="dishe_pict"></h4>
+                        </p>
+                    </h4>
+                </div>
+            </div>
+            <div class="col-xs-12 col-md-12 col-lg-6">
+                <div class="card">
+                    <h4>
+                        <p style="color: #777777;">
+                            <h4 class="price"><img src="dishe_4" alt="" class="dishe_pict"></h4>
+                        </p>
+                    </h4>
+                </div>
+            </div>
+            <div class="col-xs-12 col-md-12 col-lg-6">
+                <div class="card">
+                    <h4>
+                        <p style="color: #777777;">
+                            <h4 class="price"><img src="dishe_5" alt="" class="dishe_pict"></h4>
+                        </p>
+                    </h4>
+                </div>
+            </div>
+            <div class="col-xs-12 col-md-12 col-lg-6">
+                <div class="card">
+                    <h4>
+                        <p style="color: #777777;">
+                            <h4 class="price"><img src="dishe_6" alt="" class="dishe_pict"></h4>
+                        </p>
+                    </h4>
+                </div>
+            </div>
+        </div>
