@@ -11,12 +11,6 @@ buttons.forEach(button => {
   });
 });
 
-cards.forEach(card => {
-    card.addEventListener('click', () => {
-        window.open('restaurant.html');
-    });
-});
-    
 logo.addEventListener('click', () => {
-  window.open('restaurant.html');
+  window.location.href  ='index.html';
     });
