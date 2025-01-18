@@ -160,15 +160,40 @@ p.time{
     border-radius: 20px;
     display: block;
 }
-
-.dishes button{
+ 
+.dishes_item{
     color: #777777;
     border: none;
+}
+
+.dishes_mobile, .dishes_list_mobile{
+    text-align: center;
+}
+
+.dishes_mobile button{
+    font-size: 2rem;
 }
 
 .dishes_item{
     margin-right: 4rem;
 }
+
+.dishes_list_mobile button{
+    font-size: 2rem;
+}
+
+.hidden {
+    height: 1rem;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+  
+.visible {
+    opacity: 1;
+    visibility: visible;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+  }
 
 .dishes_item:hover{
     color: green;
@@ -196,3 +221,16 @@ p.time{
     margin: 1rem 1rem 0.5rem; 
     color: #777777;
 }
+
+@media (max-width: 991px){
+    .dishes{
+        display: none;
+    }
+}
+
+@media (min-width: 991px){
+    .dishes_mobile{
+        display: none;
+    }
+}
+
