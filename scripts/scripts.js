@@ -1,10 +1,11 @@
 console.log("HELLO");
 const buttons = document.querySelectorAll('.dishes_item');
-document.getElementById("start_button").classList.add('active');
 const startBtnMb = document.getElementById("start_button_mobile");
+const buttonsMb = document.querySelectorAll('.dishes_item_mobile');
 const logo = document.getElementById("main_logo");
 const hiddenMenu = document.getElementById("dishes_list_mobile");
 
+document.getElementById("start_button").classList.add('active');
 startBtnMb.classList.add('active');
 
 startBtnMb.addEventListener('click', () => {
@@ -24,6 +25,19 @@ buttons.forEach(button => {
     buttons.forEach(btn =>{btn.classList.remove('active');
     });
     button.classList.add('active');
+  });
+});
+
+buttonsMb.forEach(button => {
+  button.addEventListener('click', () => {
+    buttonsMb.forEach(btn => {
+      btn.style.display = "";
+    });
+    button.style.display = "none";
+    startBtnMb.textContent = button.textContent;
+    hiddenMenu.classList.remove("visible");
+    hiddenMenu.classList.add("hidden");
+    startBtnMb.classList.add('active');
   });
 });
 
